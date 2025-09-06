@@ -12,8 +12,172 @@
 		(comment 1 "Reviewer:")
 	)
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 154.94 100.33) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b711e3-b9a0-4255-bc46-58a87aae60cf")
+	)
+	(bus
+		(pts
+			(xy 154.94 105.41) (xy 179.07 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2935c46d-aeca-4376-84a4-26609a0e6287")
+	)
+	(bus
+		(pts
+			(xy 154.94 107.95) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2b000b-64e5-4ec7-a1c9-ff41ec807eff")
+	)
+	(bus
+		(pts
+			(xy 154.94 102.87) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48390b41-7e4a-4649-8a70-ab58069372c1")
+	)
+	(bus
+		(pts
+			(xy 166.37 100.33) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b202d547-d7dc-4ebc-b906-828ab9b17c70")
+	)
+	(wire
+		(pts
+			(xy 154.94 113.03) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe7c396-a7d1-4d92-b15a-df829aef0d10")
+	)
+	(bus
+		(pts
+			(xy 166.37 71.12) (xy 179.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85dee15-cc88-40b7-a61b-96ab424320a9")
+	)
 	(sheet
-		(at 135.89 90.17)
+		(at 179.07 59.69)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21c363b1-114f-4e2e-b75f-7883373523cf")
+		(property "Sheetname" "CAN"
+			(at 179.07 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 179.07 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{CAN}" bidirectional
+			(at 179.07 71.12 180)
+			(uuid "af5a0e7b-1bd3-46b5-b298-ea4f666e353e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PUTM_EV_STEERING_WHEEL_2026"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 92.71)
+		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a417edd-3d72-41ec-bf45-4de1f0f83073")
+		(property "Sheetname" "POWER"
+			(at 88.9 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 88.9 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PUTM_EV_STEERING_WHEEL_2026"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 92.71)
 		(size 26.67 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29,7 +193,7 @@
 		)
 		(uuid "9ccf76c3-3be5-4f8e-9f6b-1c783a0bd77f")
 		(property "Sheetname" "uC"
-			(at 135.89 89.4584 0)
+			(at 128.27 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,7 +202,7 @@
 			)
 		)
 		(property "Sheetfile" "uC.kicad_sch"
-			(at 135.89 113.6146 0)
+			(at 128.27 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,28 +210,18 @@
 				(justify left top)
 			)
 		)
-		(pin "POWER" input
-			(at 135.89 95.25 180)
-			(uuid "051c1869-2c07-4721-8425-fbbcf5ddd0ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RESET" input
-			(at 135.89 107.95 180)
+			(at 154.94 113.03 0)
 			(uuid "9a9d5579-328d-4a34-8287-d932d555b28c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "{CAN}" bidirectional
-			(at 162.56 95.25 0)
+			(at 154.94 100.33 0)
 			(uuid "c8088fcc-7721-4523-a428-48e49816edb6")
 			(effects
 				(font
@@ -77,7 +231,7 @@
 			)
 		)
 		(pin "{SW}" bidirectional
-			(at 162.56 101.6 0)
+			(at 154.94 102.87 0)
 			(uuid "55f4009d-6509-48ab-99bf-460b4ec60278")
 			(effects
 				(font
@@ -87,8 +241,18 @@
 			)
 		)
 		(pin "{USB}" output
-			(at 162.56 107.95 0)
+			(at 154.94 107.95 0)
 			(uuid "f11585c3-1102-45b7-a34c-7097be692301")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{USART1}" bidirectional
+			(at 154.94 105.41 0)
+			(uuid "8d2edddf-4093-4468-becf-11c94c5c403c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,6 +264,88 @@
 			(project "PUTM_EV_STEERING_WHEEL_2026"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 92.71)
+		(size 25.4 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d4ab6ec-dbbc-4242-90ed-27aa66b4b444")
+		(property "Sheetname" "CONNECTORS"
+			(at 179.07 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 179.07 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RESET" output
+			(at 179.07 113.03 180)
+			(uuid "0e9df7e5-3dc8-4cdc-a8a8-a86d97fbe933")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SW}" input
+			(at 179.07 102.87 180)
+			(uuid "e1cc94ce-d41c-43e5-a784-73266df5c660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USART1}" input
+			(at 179.07 105.41 180)
+			(uuid "b2de280d-d3bc-4a55-b9ea-aa69e25ba7eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USB}" input
+			(at 179.07 107.95 180)
+			(uuid "5d328fcf-4a85-4cee-b1f5-c9f9282826ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PUTM_EV_STEERING_WHEEL_2026"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "4")
 				)
 			)
 		)

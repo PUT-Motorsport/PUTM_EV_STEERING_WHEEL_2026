@@ -623,6 +623,18 @@
     [
       "9ccf76c3-3be5-4f8e-9f6b-1c783a0bd77f",
       "uC"
+    ],
+    [
+      "7a417edd-3d72-41ec-bf45-4de1f0f83073",
+      "POWER"
+    ],
+    [
+      "9d4ab6ec-dbbc-4242-90ed-27aa66b4b444",
+      "CONNECTORS"
+    ],
+    [
+      "21c363b1-114f-4e2e-b75f-7883373523cf",
+      "CAN"
     ]
   ],
   "text_variables": {
