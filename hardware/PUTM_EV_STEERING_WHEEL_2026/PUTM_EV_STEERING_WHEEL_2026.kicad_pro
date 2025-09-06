@@ -635,6 +635,10 @@
     [
       "21c363b1-114f-4e2e-b75f-7883373523cf",
       "CAN"
+    ],
+    [
+      "bb4b6367-82ad-4e24-82db-e6556cd829a7",
+      "DRIVER_INPUT"
     ]
   ],
   "text_variables": {

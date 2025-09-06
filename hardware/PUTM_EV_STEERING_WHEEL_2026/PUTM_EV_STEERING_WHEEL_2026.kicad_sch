@@ -54,7 +54,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 100.33) (xy 166.37 71.12)
+			(xy 166.37 100.33) (xy 166.37 74.93)
 		)
 		(stroke
 			(width 0)
@@ -74,7 +74,7 @@
 	)
 	(bus
 		(pts
-			(xy 166.37 71.12) (xy 179.07 71.12)
+			(xy 166.37 74.93) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -83,7 +83,7 @@
 		(uuid "f85dee15-cc88-40b7-a61b-96ab424320a9")
 	)
 	(sheet
-		(at 179.07 59.69)
+		(at 179.07 63.5)
 		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -99,7 +99,7 @@
 		)
 		(uuid "21c363b1-114f-4e2e-b75f-7883373523cf")
 		(property "Sheetname" "CAN"
-			(at 179.07 58.9784 0)
+			(at 179.07 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -108,7 +108,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 179.07 83.1346 0)
+			(at 179.07 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -117,7 +117,7 @@
 			)
 		)
 		(pin "{CAN}" bidirectional
-			(at 179.07 71.12 180)
+			(at 179.07 74.93 180)
 			(uuid "af5a0e7b-1bd3-46b5-b298-ea4f666e353e")
 			(effects
 				(font
@@ -135,7 +135,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 92.71)
+		(at 129.54 52.07)
 		(size 26.67 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -151,7 +151,7 @@
 		)
 		(uuid "7a417edd-3d72-41ec-bf45-4de1f0f83073")
 		(property "Sheetname" "POWER"
-			(at 88.9 91.9984 0)
+			(at 129.54 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +160,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 88.9 116.1546 0)
+			(at 129.54 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -346,6 +346,48 @@
 			(project "PUTM_EV_STEERING_WHEEL_2026"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 92.71)
+		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bb4b6367-82ad-4e24-82db-e6556cd829a7")
+		(property "Sheetname" "DRIVER_INPUT"
+			(at 83.82 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver_input.kicad_sch"
+			(at 83.82 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PUTM_EV_STEERING_WHEEL_2026"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "6")
 				)
 			)
 		)
