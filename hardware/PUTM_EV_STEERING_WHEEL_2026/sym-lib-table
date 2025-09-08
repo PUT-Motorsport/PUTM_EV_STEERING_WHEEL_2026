@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Harwin")(type "KiCad")(uri "${KIPRJMOD}/footprint/Samacsys_kicad_sym.kicad_sym")(options "")(descr ""))
+)
